@@ -169,9 +169,6 @@ function factorial(n) {
         return 'Big Integer';
     }
 };
-// function percentOfNum(n) {
-//     return n / 100;
-// };
 function negOrPosNum(n) {
     n *= -1;
     return n.toString();
