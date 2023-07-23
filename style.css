@@ -30,8 +30,8 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   color: #fff;
   background: linear-gradient(
       180deg,
@@ -55,6 +55,8 @@ button {
       rgba(255, 255, 255, 0.05) 100%
     ),
     #462878;
+  line-height: 60px;
+  text-align: center;
 }
 .result {
   height: 100px;
@@ -71,11 +73,11 @@ button {
   display: flex;
   flex-direction: column;
 }
-.operator{
+.operator {
   font-size: 36px;
   font-weight: 300;
 }
-.operator:hover{
+.operator:hover {
   background-color: #6027c3c3;
 }
 .numbers {
@@ -88,6 +90,6 @@ button {
   display: flex;
   /* border: solid; */
 }
-.clear-all{
-  color: #975DFA;
+.clear-all {
+  color: #975dfa;
 }
